@@ -11,7 +11,7 @@
 <!-- for invididual hero along with the pipngproperty , ngModel is for two way binding -->
 <!-- <h2>{{selectedHero.name | uppercase}} Details</h2>
 <div><span>id: </span>{{selectedHero.id}}</div> -->
-<div *ngIf="selectedHero">
+<!-- <div *ngIf="selectedHero">
 
     <h2>{{selectedHero.name | uppercase}} Details</h2>
     <div><span>id: </span>{{selectedHero.id}}</div>
@@ -21,7 +21,9 @@
       </label>
     </div>
   
-</div>
+</div> -->
+<!-- Property binding [hero]="selectedHero" is an Angular property binding. -->
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
 
 
 
